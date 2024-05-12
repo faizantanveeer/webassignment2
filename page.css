@@ -1,0 +1,508 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+.first{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(image-folder/marketing.jpg);
+}
+nav{
+    display: flex;
+    text-align: center;
+}
+.logo{
+    color: white;
+    width: 40%;
+   
+    padding: 30px;
+    font-size: 27px;
+
+}
+.menu{
+    width: 60%;
+    
+}
+.logo span{
+    color: rgb(241, 15, 15);
+}
+nav .menu li{
+    display: inline-block;
+    padding: 40px 13px;
+}
+nav .menu li a{
+    text-decoration: none;
+    color: white;
+    
+}
+nav .menu li a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: #FD4251;
+    margin: auto;
+    display: block;
+}
+nav .menu li a:hover::after{
+    width: 100%;
+    transition: width 0.3% linear;
+}
+.tex{
+    color: white;
+    width: 40%;
+    position: absolute;
+    
+    left: 30%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.tex2{
+   
+    padding: 20px 75px;
+    font-size: 12px;
+}
+.tex3{
+    margin: 20px;
+}
+
+.tex3 a{
+    border: 1px solid #FD4251;
+    background-color: 1px solid #FD4251;
+    padding: 7px 25px;
+    margin: 0px 7px;
+    text-decoration: none;
+    color: white;
+    font-size: small;
+}
+.tex3 a:hover{
+    background-color: rgb(204, 36, 36);
+}
+.box{
+    display: flex;
+    width: 55%;
+    position: relative;
+    top: 300px;
+    margin: auto;
+}
+.boxx{
+
+    border: 2px solid brown;
+    margin: 10px 5px;
+    height: 230px;
+    color: white;
+    
+}
+.boxx p{
+    font-size: small;
+    padding: 15px 25px;
+}
+.boxx h4{
+    padding-left: 25px;
+    padding-top: 20px;
+}
+#box1{
+    background-color: rgb(216, 47, 47);
+}
+#box2{
+    background-color: rgb(74, 23, 23);
+}
+#box3{
+    background-color: rgb(74, 23, 23);
+}
+
+.boxx img{
+    margin-top: 30px;
+    height: 50px;
+    width: 70px;
+    padding-left: 25px;
+}
+.services{
+
+    color: rgb(21, 21, 21);
+    width: 40%;
+    position: absolute;
+
+    left: 30%;
+    text-align: center;
+    margin-top: 370px;
+}
+#service{
+    color: #FD4251;
+}
+.services h1{
+    margin-top: 10px;
+}
+.services span{
+    color: #FD4251;
+}
+.services #para{
+    padding: 20px 60px;
+    color: rgb(180, 174, 174);
+}
+.boxes{
+    
+    margin-top: 500px;
+    height: 450px;
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly; 
+    margin-left: 10%;
+}
+.boxes img{
+    height: 50px;
+    width: 50px;
+    
+}
+.boxess{
+    width: 250px;
+    font-size: small;
+    margin: 30px 20px;
+    height: 150px;
+    
+    text-align: center;
+}
+/* .boxes  .boxess h2{
+    margin-top: 10;
+} */
+.container{
+    color: white;
+    background-color: black;
+    margin-top: 30px;
+    
+    display: flex;
+    height: 400px;
+    width: 90%;
+    margin-left: 5%;
+}
+.container-first{
+    width: 45%;
+    margin: 50px 80px;
+    padding: 20px 60px;
+}
+
+.container .container-first li a{
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    padding: 5px 25px ;
+    font-size: medium;
+}
+.container-first li{
+    margin-top: 50px;
+    list-style: none;
+}
+
+.container .container-first p{
+    padding-top: 25px;
+    font-size: small;
+    padding-right:45px;
+}
+.container-first li a:hover{
+    color: rgb(8, 7, 7);
+    background-color: rgb(235, 217, 217);
+}
+.imag img{
+    height: 260px;
+    width: 200px;
+    margin-top: 70px;
+    padding: 10px;
+}
+
+.explain{
+    margin-top: 70px;
+    width: 80%;
+   
+    height: 300px;
+    display: flex;
+    margin-left: 10%;
+}
+.man{
+    width: 50%;
+   
+    display: flex;
+    flex-wrap: wrap;
+}
+.man p{
+    padding-top: 10px;
+}
+.exp{
+    
+    margin: 5px;
+    padding: 5px;
+    width: 250px;
+
+}
+.qual{
+    padding-left: 30px;
+  
+    margin: 3px;
+    width: 50%;
+}
+
+.qual p{
+    padding-top: 22px;
+    color: rgb(149, 142, 142);
+}
+.navbar{
+    margin-top: 100px;
+    
+ 
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(134, 125, 125);
+    
+}
+.navbar a:hover{
+    color: black;
+}
+.navbar .ull li a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: rgb(8, 7, 7);
+    margin: auto;
+    display: block;
+}
+.navbar .ull li a:hover::after{
+    width: 100%;
+    transition: width 0.3% linear;
+}
+.navbar ul{
+    margin-left: 30%;
+}
+.navbar li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+.addimages{
+    margin: 20px 70px;
+}
+.addimages img{
+    width: 295px;
+    height: 200px;
+    padding: 3px;
+}
+
+.video1{
+    margin-top: 70px;
+
+    height: 200px;
+    display: flex;
+}
+.firstvid{
+    
+    width: 30%;
+    height: 200px;
+    margin-left: 18%;
+}
+.firstvid a{
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 5px 20px;
+    font-size: small;
+    border-width: 1px;
+    color: black;
+}
+.firstvid li a:hover{
+    color: whitesmoke;
+    background-color: rgb(14, 14, 14);
+}
+.firstvid li{
+    list-style: none; 
+    padding-top: 38px;
+}
+
+.firstvid p{
+    padding-top: 25px;
+    padding-right: 30px;
+    font-size: small;
+}
+.video1 video{
+    width: 370px;
+    height: 190px;
+    margin-left: 3%;
+}
+.companylogo{
+    margin: 70px 50px;
+    height: 350px;
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    
+}
+.forlogo{
+    width: 50%;
+    padding-left: 150px;
+    margin-top: 50px;
+}
+.forlogo img{
+    width: 200px;
+    height: 120px;
+}
+.logopara{
+    width: 50%;
+
+}
+.logopara h2{
+    padding-right: 140px;
+    padding-left: 90px;
+    padding-top:70px ;
+}
+.logopara p{
+    font-size: small;
+    padding-top: 20px;
+    padding-right: 140px;
+    padding-left: 90px;
+}
+.paraa{
+    height: 400px;
+    display: flex;
+}
+.firstpar{
+    margin-left: 200px;
+}
+.firstparr h2{
+    padding-right: 130px;
+}
+.firstpar .firstparr p{
+    margin-top: 15px;
+    padding-right: 100px;
+    font-size: small;
+}
+.port{
+    margin-top: 25px;
+    display: flex;
+    height: 150px; 
+    width: 400px;
+    font-size: small;
+}
+.port1{
+    /* border: 2px solid brown; */
+    margin: 0px 5px;
+}
+.port2{
+    /* border: 2px solid brown; */
+}
+.firstpar{
+    margin-top: 5px;
+
+    width: 35%;
+    height: 350px;
+}
+.im img{
+    height: 350px;
+    width: 520px;
+}
+.port img{
+    height: 50px;
+    width: 70px;
+}
+.port h4{
+    margin-top: 5px;
+}
+.port p{
+    margin-top: 10px;
+}
+.Aboutfoam{
+    margin-top: 40px;
+    height: 350px;
+    display: flex;
+}
+.foamrelated{
+    width:30%;
+    margin-left: 200px;
+    margin-right: 60px;
+}
+.foamrelated p{
+    padding-top: 20px;
+}
+.foamrelated h1{
+    padding-right: 20px;
+}
+input[type=text],input[type=service]{
+    width: 400px;
+    padding: 10px;
+    margin-top:10px;
+    display: block;
+    border: 2px solid black;
+  }
+select[name=service]{
+    width: 400px;
+    padding: 10px;
+    margin-top:10px;
+    display: block;
+    border: 2px solid black;
+  }
+input[type=pass] {
+    width: 198px;
+    padding: 10px;
+    margin-top:10px;;
+    display: inline;
+    border: 2px solid black;
+  }
+textarea[name=comment]{
+    width: 400px;
+    height: 180px;
+    padding: 10px;
+    margin-top:10px;
+    display: block;
+    border: 2px solid black;
+  }
+.foams input[type=Submit]{
+    align-items: center;
+    padding:7px 30%;
+    margin: 10px 210px 100px 210px;
+    background-color: rgb(177, 13, 13);
+    color: white;
+    border: none;
+  } 
+.footer{
+    height: 400px;
+    background-color: black;
+    border: 2px solid rgb(9, 8, 9);
+}
+.menuu{
+    margin-top: 50px;
+}
+.contact{
+    display: flex;
+    margin-top: 35px;
+}
+.aboutcontact{
+    color: white;
+    width: 40%;
+    margin-left: 200px;
+    margin-right: 100px;
+    padding-right: 30px;
+}
+.aboutmail{
+    width: 43%;
+    margin-right: 180px;
+}
+.aboutmail input[type=pass]{
+    width: 370px;
+    padding: 8px;
+    margin-top:10px;;
+    border: 2px solid black;
+}
+.aboutmail h4{
+    color: white;
+    font-size: medium;
+    margin-right: 12px;
+}
+.aboutmail input[type=Submit]{
+    display: inline-block;
+    padding: 7px 10px;
+    margin-left: -5px;
+    border-radius: 0%;
+    background-color: #FD4251;
+    color: white;
+    border: none;
+}
